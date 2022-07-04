@@ -31,7 +31,7 @@ def setup(bot):
 def sold(bot, trigger):
     data = gettickets(bot)
     sold = data['paid_orders'] + data['pending_orders']
-    bot.say('Tickets sold: %d. Still available: %d' % (sold, 2800 - sold))
+    bot.say('Tickets sold: %d. Still available: %d' % (sold, 3133 - sold))
 
 def gettickets(bot):
     headers = {}
